@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mongock
+
+mongock:
+  enabled: true
+  migration-scan-package: com.hvs.mongock.migrations
+
+logging:
+  level:
+    io.mongock: DEBUG
